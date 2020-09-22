@@ -1,0 +1,47 @@
+@font-face {
+	font-family: prxm;
+	src: url(ProximaNova-Regular.Otf);
+}
+
+  * {
+	font-family: prxm;
+}
+
+.container {
+    width: 1124px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 180px 0 100px 0;
+    background-image: url(images/bg-intro-desktop.png);
+    background-size: cover;
+    background-color: #FF7978;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+.container-left h1 {
+    font-size: 48px;
+}
+
+.container-left p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 64px;
+}
+
+.container-right {
+    margin: 24px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
